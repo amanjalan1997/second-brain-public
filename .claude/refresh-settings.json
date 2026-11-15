@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      { "matcher": "mcp__claude_ai_Microsoft_365__.*", "hooks": [ { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/refresh_permission.sh", "timeout": 10 } ] }
+    ]
+  }
+}

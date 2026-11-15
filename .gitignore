@@ -1,0 +1,9 @@
+.env
+app/config.js
+lists/
+config/
+notes/
+drafts/
+.context/
+__pycache__/
+.DS_Store
